@@ -1,8 +1,8 @@
-# `#define*`
+## Multi-line C macros
 
-Multi-line macros for C.
+Replaces
 
-Replaces ```C
+```C
 #define* F(A1, .., An) {
   S1
   .
@@ -11,7 +11,9 @@ Replaces ```C
 }
 ```
 
-With ```c
+With
+
+```C
 #define F(A1, .., An) \
   S1 \
   . \
